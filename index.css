@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+
+#main-body{
+    width: auto;
+}
+
+.header{
+    width: auto;
+    height: 30px;
+    background-color: rgb(198, 198, 198);
+}
+
+.left-content{
+    width: 25%;
+    height: 760px;
+    background-color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.name{
+    width: 100%;
+    height: 8%;
+    background-color: yellow;
+}
+
+.menu{
+    width: 100%;
+    height: 56%;
+    background-color: yellowgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-button{
+    width: 100%;
+    flex: 1;
+}
+
+.more{
+    width: 100%;
+    height: 8%;
+    background-color: violet;
+    margin-top: auto;
+}
