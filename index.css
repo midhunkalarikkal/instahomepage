@@ -84,6 +84,57 @@ body{
 
 .scroller{
     padding: 10px;
+    margin-top: 40px;
+}
+
+.stories{
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+}
+
+.story{
+    /* margin-top: 10px; */
+    flex: 0 0 auto;
+    width: 12vh;
+    height: 12vh;
+    background-color: rgb(7, 7, 7);
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.round{
+    width: 8vh;
+    height: 8vh;
+    border-radius: 20vh;
+    background-color: saddlebrown;
+    border: 2px solid tomato;
+}
+
+.sname{
+    width: 11vh;
+    background-color: springgreen;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postbox{
+    width: 70%;
+    height: 65vh;
+    background-color: steelblue;
+    margin-top: 10px;
 }
 
 .right-content{
